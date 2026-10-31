@@ -3,7 +3,6 @@
 Rules for any agent editing this repository. One line per rule, English, no prose.
 
 - One repository is one library; the library name is the repository name (`mojo-tls` → `mojo_tls`).
-- When you copy this template, replace `bojo_demo_math` everywhere in one commit: the `[repo] url`, `__init__.mojo`, `_tests/`, `README.md`, `docs/`.
 - `__init__.mojo` holds imports only: no logic, no constants, no side effects.
 - Write every import with its full module path; never rely on a local alias.
 - Put implementation in `*.mojo` next to `__init__.mojo`, one concern per file.
